@@ -1,0 +1,17 @@
+info:
+  name: STATISTIC
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: "{{HOST}}guests/statistics"
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmExODgzMDRkYzEyZjVjN2I5NzAwMSIsImVtYWlsIjoibW9ub2Nocm9tZUBnbWFpbC5jb20iLCJleHAiOjE3NzYzOTU2NTV9.fvxso06L5gtRLntrSFFPLoxKBjCRhGicpGT9T4M37G4
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,0 +1,23 @@
+info:
+  name: REGISTER
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{HOST}}auth/register"
+  body:
+    type: json
+    data: |-
+      {
+        "name": "{{$randomFullName}}",
+        "email": "monochrome@gmail.com",
+        "password": "12345678"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

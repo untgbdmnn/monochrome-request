@@ -1,0 +1,25 @@
+info:
+  name: REGISTER
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{HOST}}auth/register"
+  body:
+    type: json
+    data: |-
+      {
+        "name": "{{$randomFullName}}",
+        "email": "{{$randomEmail}}",
+        "password": "12345678",
+        "confirmPassword": "12345678",
+        "phone":"{{$randomPhoneNumber}}"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

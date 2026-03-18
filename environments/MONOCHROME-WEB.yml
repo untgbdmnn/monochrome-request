@@ -1,0 +1,8 @@
+name: MONOCHROME-WEB
+variables:
+  - name: HOST
+    value: http://localhost:8500/web/
+  - name: LOCAL
+    value: http://localhost:8990/web/
+  - name: TOKEN
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjlmYzBmYzA3MzBiNjBkYzRkMDk5NCIsImVtYWlsIjoibW9ub2Nocm9tZUBnbWFpbC5jb20iLCJleHAiOjE3NzYzODgzOTR9.E5qLhOg6rxUsFXRc-SDQgWCClE_MqjCcpQHSrW5bq7c

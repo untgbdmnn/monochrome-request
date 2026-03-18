@@ -4,7 +4,13 @@ info:
   type: workspace
 
 collections:
+  - name: "WEB"
+    path: "collections/WEB"
+  - name: "APP"
+    path: "collections/APP"
 
 specs:
 
 docs: ''
+
+activeEnvironmentUid: 1yqbx1200000000000000
