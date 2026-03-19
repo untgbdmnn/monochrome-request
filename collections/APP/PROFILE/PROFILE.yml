@@ -1,11 +1,11 @@
 info:
-  name: PAGINATE
+  name: PROFILE
   type: http
   seq: 1
 
 http:
-  method: POST
-  url: "{{HOST}}guests"
+  method: GET
+  url: "{{LOCAL}}profile"
   auth:
     type: bearer
     token: "{{TOKEN}}"

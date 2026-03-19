@@ -3,4 +3,6 @@ variables:
   - name: HOST
     value: http://localhost:8500/frontapp/
   - name: LOCAL
-    value: http://localhost:8000/frontapp/
+    value: http://localhost:8990/frontapp/
+  - name: TOKEN
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmE2Y2VhY2I1ZGIzNjE3ZWNhZDI5YSIsImVtYWlsIjoiY29vcGVyODVAaG90bWFpbC5jb20iLCJleHAiOjE3NzY0MTc1MzN9.tvyA2pSh1-lOsErCmEzSxWEWBq_flZDKtk4Ir2PrrKk

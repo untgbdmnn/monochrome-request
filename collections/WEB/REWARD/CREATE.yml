@@ -1,14 +1,12 @@
 info:
-  name: PAGINATE
+  name: CREATE
   type: http
   seq: 1
 
 http:
   method: POST
-  url: "{{HOST}}guests"
-  auth:
-    type: bearer
-    token: "{{TOKEN}}"
+  url: ""
+  auth: inherit
 
 settings:
   encodeUrl: true

@@ -1,0 +1,22 @@
+info:
+  name: LOGIN
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: "{{LOCAL}}auth"
+  body:
+    type: json
+    data: |-
+      {
+        "credential":"cooper85@hotmail.com",
+        "password":"12345678"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

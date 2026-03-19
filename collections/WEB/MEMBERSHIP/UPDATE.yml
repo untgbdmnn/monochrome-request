@@ -1,0 +1,25 @@
+info:
+  name: UPDATE
+  type: http
+  seq: 2
+
+http:
+  method: PATCH
+  url: "{{LOCAL}}membership/update/69ba33477163f4a0f7c57b96"
+  body:
+    type: json
+    data: |-
+      {
+        "minPoints":0,
+        "maxPoints":10,
+        "benefits":"kashdkajsdas, haskdhaskjdkaks, akshdkjasdaskd, akshdkajsdhaskjdas, aishdkasjhdkas"
+      }
+  auth:
+    type: bearer
+    token: "{{TOKEN}}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

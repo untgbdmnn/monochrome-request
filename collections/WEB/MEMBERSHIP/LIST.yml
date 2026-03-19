@@ -1,11 +1,11 @@
 info:
-  name: PAGINATE
+  name: LIST
   type: http
-  seq: 1
+  seq: 3
 
 http:
   method: POST
-  url: "{{HOST}}guests"
+  url: "{{HOST}}membership/list"
   auth:
     type: bearer
     token: "{{TOKEN}}"
