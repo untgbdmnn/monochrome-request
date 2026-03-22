@@ -1,14 +1,11 @@
 info:
-  name: CREATE
+  name: SEED
   type: http
-  seq: 1
+  seq: 2
 
 http:
-  method: POST
-  url: "{{HOST}}rewards/create"
-  body:
-    type: json
-    data: ""
+  method: GET
+  url: "{{LOCAL}}rewards/seed"
   auth:
     type: bearer
     token: "{{TOKEN}}"

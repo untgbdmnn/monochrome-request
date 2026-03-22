@@ -1,14 +1,11 @@
 info:
-  name: CREATE
+  name: GET DETAIL
   type: http
-  seq: 1
+  seq: 4
 
 http:
-  method: POST
-  url: "{{HOST}}rewards/create"
-  body:
-    type: json
-    data: ""
+  method: GET
+  url: "{{LOCAL}}rewards/69bd1532d8e5cb229b769aa4"
   auth:
     type: bearer
     token: "{{TOKEN}}"

@@ -1,14 +1,11 @@
 info:
-  name: CREATE
+  name: REMOVE
   type: http
-  seq: 1
+  seq: 5
 
 http:
-  method: POST
-  url: "{{HOST}}rewards/create"
-  body:
-    type: json
-    data: ""
+  method: DELETE
+  url: "{{LOCAL}}rewards/delete/69bd1532d8e5cb229b769aa4"
   auth:
     type: bearer
     token: "{{TOKEN}}"
